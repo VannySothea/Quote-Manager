@@ -1,0 +1,23 @@
+/* Quote Card */
+p.error{
+  text-align: center;
+  color: red;
+}
+.quote-card {
+  background: var(--background-color);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  width: 50%;
+  text-align: center;
+}
+
+.quote-card p {
+  font-style: italic;
+}
+
+.quote-card .author {
+  font-weight: bold;
+  margin-top: 10px;
+}
